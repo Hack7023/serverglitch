@@ -16,7 +16,7 @@ app.use("/in", authRoutes);
 
 mongoose
   .connect(
-    "mongodb+srv://hack:0LEEZHzt6Xbtk6Hi@cluster.pxp98im.mongodb.net/test",
+    "mongodb+srv://hack:<password hidden>@cluster.pxp98im.mongodb.net/test",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,

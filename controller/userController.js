@@ -5,9 +5,7 @@ export const collectData = async (req, res) => {
     const data = await sampledata.find();
 
     res.status(200).json({
-      result: {
-        data: data,
-      },
+      data,
     });
   } catch (error) {
     res.status(500).json(error);
